@@ -34,18 +34,3 @@ table, th, td {
 hr{
     border-top: 1px solid darkgray;
 }
-.body_html{
-    width: 300px;
-}
-.title{
-    width: 200px;
-}
-.handle{
-    width: 200px;
-}
-.tags{
-    width: 300px;
-}
-.variants{
-    width: 150px;
-}
