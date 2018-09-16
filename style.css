@@ -1,0 +1,51 @@
+
+body{
+    height:100vh;
+    width:100vw;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+}
+th{
+    background-color: dimgray;
+    color: white;
+    padding: 5px;
+    height: 50px;
+}
+th:nth-child(1)::after, th:nth-child(5)::after {
+    content: '\25bc';
+    padding-left: 0.5em;
+}
+th:nth-child(1):hover, th:nth-child(5):hover{
+    background-color: black;
+    cursor: pointer;
+}
+td{
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+hr{
+    border-top: 1px solid darkgray;
+}
+.body_html{
+    width: 300px;
+}
+.title{
+    width: 200px;
+}
+.handle{
+    width: 200px;
+}
+.tags{
+    width: 300px;
+}
+.variants{
+    width: 150px;
+}
